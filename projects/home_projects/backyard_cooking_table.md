@@ -54,7 +54,7 @@ Steps
 - [x] minimum material shopping
 - [x] building base frame
 - [x] Adding the top and bottom layer
-- [ ] Sanding
+- [x] Sanding
 - [ ] Staining and Ploy
 
 
@@ -67,4 +67,3 @@ Steps
     - $10 - screws
 
 - $55 coffee to no awale
-
