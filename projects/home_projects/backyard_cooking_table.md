@@ -53,8 +53,7 @@ Steps
 - [x] sign off from customer
 - [x] minimum material shopping
 - [x] building base frame
-- [ ] Remaining material shopping
-- [ ] Adding the top and bottom layer
+- [x] Adding the top and bottom layer
 - [ ] Sanding
 - [ ] Staining and Ploy
 
@@ -62,8 +61,10 @@ Steps
 ### Project Expenses
 - Lumber
     - $12 - frame
+    - repurpose rest of the lumber
 - Joints
     - $3 - dowels
     - $10 - screws
 
+- $55 coffee to no awale
 
