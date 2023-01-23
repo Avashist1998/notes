@@ -8,7 +8,7 @@ The purpose of the application is complete the goal of creating a IOS applicatio
 - React Native
 - Firebase authentication
 - FireStore database
-- cocoaPods
+- App Deployment (Apple & Google playstore)
 
 
 ### Functionality 
