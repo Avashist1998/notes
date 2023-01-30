@@ -55,7 +55,7 @@ Steps
 - [x] building base frame
 - [x] Adding the top and bottom layer
 - [x] Sanding
-- [ ] Staining and Ploy
+- [x] Staining and Ploy
 
 
 ### Project Expenses
@@ -65,5 +65,7 @@ Steps
 - Joints
     - $3 - dowels
     - $10 - screws
+- Top Pannels found in the house
+- Stain and Sander was found in the house
 
-- $55 coffee to no awale
+- $55 coffee table to no awale
