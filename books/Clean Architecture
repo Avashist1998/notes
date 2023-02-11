@@ -1,0 +1,16 @@
+# Clean Architecture
+- A Craftsman's Guide to Software Structure and Design
+- Author: Robert C. Martin
+
+
+## Chapter Summaries
+
+
+
+### DIP (Dependencies Inversion Principle)
+- 87pg - 91pg
+
+The basic idea is that we want to limit the volitility of our codebase. As developers we control our code but we can not controll external libraries/dependecies. 
+So the author recommends that limit our use of concrete class and modules in our code. Concrete intities are defined as anything that is implimented as it is declared. 
+Instead the author proposes that use `Abstract` classes or `interfaces` as an intermediate layer between our code and the volitile code. A good example is `SpringBoot` API definition structure or the `Google Drive API` wrapper build by me at `Argo AI`. 
+The author recognizes that some classes cannot be avoided like the `String` class in java. The purpose of the principle is to reduce the number of instance where we directly interact with volite classes as much as possible.
