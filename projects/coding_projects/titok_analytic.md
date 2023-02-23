@@ -3,6 +3,8 @@
 ### Description
 One place stop finding different analytic data.
 
+
+
 ### Tech Stack 
 - UI
     Svelte Kit
@@ -29,7 +31,7 @@ Videos table
 - share count
 - sound name
 - sound link
-- hastabs
+- hashtags
 - data posted
 - when created
 - when last updated
@@ -56,6 +58,20 @@ Creators tables
 * https://ads.tiktok.com/business/creativecenter
 
 
+## Final Update (Feb 18, 2023)
+- Made an airflow dag that can get a user stats
+- Stored the data in mySQL database 
+- Create a svelet kit base application with a simple search app
+- Missing
+- Connect the UI to the backend
+- Demotivated by the number of compatatitors (TikTrends, SparkTrends)
 
+
+## Major Takeways
+- Learned about rapidapi
+- Spend 2 hours search for open api
+- avoid building as much as you can
+- controll the scope
+- get a working a protoype in a week, and publish it
 
 
