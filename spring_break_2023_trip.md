@@ -1,8 +1,8 @@
-## Spring Break Trip
+# Spring Break Trip
 
-### dates
-
+### Dates
 Start:  Mar 15, 2023
+
 End: Mar 19, 2023
 
 Drive to South Padre Island
@@ -27,15 +27,16 @@ Park Entrance Station: Hours vary. If it is closed and you are camping, you can 
 
 ### Day 1
 
-Wake up
 Watch the sunrise
-Eat some break fast
+Eat some breakfast
 Have a beach day
 cleanup by 10 AM
 Shower at the beach
 leave the beach
 Geet takes her call
 
+
+---
 Padre Island Nation Shoreline Free Beach Camping - Drive - Corpus Christi
 Time: 40 mins
 Length: 37 miles
@@ -49,14 +50,15 @@ Texas State Aquarium
 - Hours
     10:00 AM - 5:00 PM
 - Valid for 60 Days
+- https://tickets.texasstateaquarium.org/#/Admission
 
+---
 Get lunch at Corpus Christi
-
 Corpus Christi - Drive - Cypress TX
 Time: 3 hr 21 mins
 Length: 222 miles
 
-Head Home
+Head Back
 
 #### checklist
 [ ] Tent
