@@ -63,26 +63,25 @@ Head Back
 #### checklist
 
 - [x] Tent
-- [ ] Light
-- [ ] Bedding
-- [ ] Beach ware
+- [x] Light
+- [x] Bedding
+- [x] Beach ware
 - [ ] Flipflops
-- [ ] Shovel
+- [x] Shovel
 - [ ] Firewood
-- [ ] Lighter
-- [ ] Camera
-- [ ] Towels
+- [x] Lighter
+- [x] Camera
+- [x] Towels
 - [ ] Hats
-- [ ] Water A lot of it
-- [ ] Hydration packs
+- [x] Water A lot of it
+- [x] Hydration packs
 - [ ] Food
-    - Cereal
-    - Powered Milk
-    - coffee
-    - Walker boiler
-    - Water bottles and container
+    - [ ] Cereal
+    - [ ] Powered Milk
+    - [ ] coffee
+    - [ ] Walker boiler
+    - [ ] Water bottles and container
 - [x] Floor Mat
 - [x] Books
 - [x] kite
-- [ ] Ice Coffee
 - [ ] Camping Chairs
