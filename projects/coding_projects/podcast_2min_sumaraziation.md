@@ -8,6 +8,11 @@ Using machine learning mode we should be able to summarizes the a novel or a res
   - https://huggingface.co/gmurro/bart-large-finetuned-filtered-spotify-podcast-summ
 
 
+
+### Hugging face
+
+
+
 Create a model that summarizes books based on chapters
 
 Action Items

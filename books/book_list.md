@@ -10,3 +10,5 @@
 - Friedrich Nietzsche
 
 
+## People
+- bret victor
