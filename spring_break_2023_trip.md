@@ -61,27 +61,28 @@ Length: 222 miles
 Head Back
 
 #### checklist
-[ ] Tent
-[ ] Light
-[ ] Bedding
-[ ] Beach ware
-[ ] Flipflops
-[ ] Shovel
-[ ] Firewood
-[ ] Lighter
-[ ] Camera
-[ ] Towels
-[ ] Hats
-[ ] Water A lot of it
-[ ] Hydration packs
-[ ] Food
+
+- [x] Tent
+- [ ] Light
+- [ ] Bedding
+- [ ] Beach ware
+- [ ] Flipflops
+- [ ] Shovel
+- [ ] Firewood
+- [ ] Lighter
+- [ ] Camera
+- [ ] Towels
+- [ ] Hats
+- [ ] Water A lot of it
+- [ ] Hydration packs
+- [ ] Food
     - Cereal
     - Powered Milk
     - coffee
     - Walker boiler
     - Water bottles and container
-[ ] Mats
-[ ] Book 
-[ ] kite
-[ ] Ice Coffee
-[ ] Camping Chairs
+- [x] Floor Mat
+- [x] Books
+- [x] kite
+- [ ] Ice Coffee
+- [ ] Camping Chairs
