@@ -9,6 +9,12 @@ Using machine learning mode we should be able to summarizes the a novel or a res
 
 
 
+### UI Websites
+https://podscribe.app
+https://www.tixr.com/about - Nav Bar
+
+
+
 ### Hugging face
 
 
