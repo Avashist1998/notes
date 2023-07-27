@@ -3,6 +3,21 @@
 Using machine learning mode we should be able to summarizes the a novel or a research paper. 
 
 
+#### Setups
+  - Firebase Backend
+    - Podcast
+    - Podcast Episode
+    - Podcast Episode Summary
+  - Frontend
+    - Svelte
+  - Jobs Worker
+    - Python
+    - Hugging Face
+    - Docker
+  - External APIs
+    - Spotify
+
+
 ### Starting Model
 - Starting Model
   - https://huggingface.co/gmurro/bart-large-finetuned-filtered-spotify-podcast-summ
@@ -22,4 +37,4 @@ Action Items
 
 Market Research
 [X] Need to find the best base model and fine tune it to podcast summarization
-[ ]  
+[ ] 
