@@ -79,7 +79,7 @@ Head Back
     - [ ] Cereal
     - [ ] Powered Milk
     - [ ] coffee
-    - [ ] Walker boiler
+    - [x] Walker boiler
     - [ ] Water bottles and container
 - [x] Floor Mat
 - [x] Books

@@ -15,7 +15,7 @@
 
 ### Things to do
 - sorting visualization post
-- viola-jones information aditions
+- viola-jones information additions
 - renal physiology post
 
 
@@ -26,4 +26,8 @@
 [1/29/2023]
 - Added github action
 - published the website
+[4/29/2023]
+- Added a maze generation post
+- Adding sorting visualization post
+- Added a viola-jones information additions
 
