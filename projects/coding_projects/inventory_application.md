@@ -1,7 +1,7 @@
-# Inventory Applicaiton
+# Inventory Application
 
 ### Purpose
-The purpose of the application is complete the goal of creating a IOS application. The purpose of the project was to test allow for a inverntory management system for a homeowner. We do not lost track of where things are stored. The application can also be purpose for performing inventory in the 
+The purpose of the application is complete the goal of creating a IOS application. The purpose of the project was to test allow for a inventory management system for a homeowner. We do not lost track of where things are stored. The application can also be purpose for performing inventory in the 
 
 ### Technologies
 
@@ -27,7 +27,7 @@ Item
  - owner (user)
  - price (dollars)
  - location (String)
- - status (boken, working, inrepair)
+ - status (broken, working, in-repair)
  - QR Code (Optional)
  - Data Logged (Hidden)
 
@@ -38,7 +38,7 @@ Item
 Main Screen Page
 - Search Items in a search bar
     - By Name
-- Shows all itmes in a list of Items
+- Shows all items in a list of Items
     - Name
     - Price
     - State
@@ -54,7 +54,7 @@ Add Item Screen
     - Location Optional
     - Pictures Optional
     - Description Optional
-- Add Item botton
+- Add Item bottom
     - Only enable when entry in entered
 
 View/Edit Item Screen
@@ -78,7 +78,7 @@ Filter Screen
     - Computer Items UPC code
     - they are scannable using the binary code
     - 
-- Add a barnd field optional
+- Add a brand field optional
 - Should be able to create a listing
     - LetGo
     - Cregslist
