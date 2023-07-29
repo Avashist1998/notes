@@ -33,13 +33,17 @@
     - 164 in x 74 in = 11808 in^2 => 82 ft^2
 - my closet
     - 8 feet x 16 in + 37 in * 92 in = 34.3 ft^2
+    - parameter
+        - 52 in + 35 in + 34 in + 37 in + 74 in + 16 in + 20 in = 268 in = 22.3 ft
+
 
 ### Materials
 - Engineering Wood
     - Bamboo ($3.29 per square feet) Lowes
 - Underpayment
-    - 100 ft^2 Premium 6-mil $34 Home Lowes
-
+    - 100 ft^2 Premium 6-mil $34 Lowes
+- Quarter Round Moulding
+    - 8 feet 11/16 in $6.72 Lowes
 - Glue 
     - HomeDepot 199 for 4 Gal
     - HomeDepot 99 for 4 Gal Engineering Wood
