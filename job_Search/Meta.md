@@ -31,7 +31,7 @@ Status
 
 
 ##### After interview
-    Hiring Commite
+    Hiring Commute
     - Failed
         - 1 year cool down
     - Mixed singles
