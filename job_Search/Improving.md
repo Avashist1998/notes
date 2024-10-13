@@ -23,7 +23,7 @@ Director of Machine learning and AI
 Consulting 
 - No clear direction that the client gives you and you will have to figure it out. You will be paired up with a senior consultant to help you out.
 - Make sure that everything is making sense when you are a consultant. 
-- You have a wide set of skills and you can apply it to different projects.
+- You have a wide set of skills and you can apply it to different projects. 
 - ML engineer have to be fluid when it come to your work
 - Treat you like an adult and make sure you do your thing and you are passivate about it. 
 - Results will determine you pay, continues learning is important and they provide funding.

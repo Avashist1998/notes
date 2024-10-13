@@ -1,20 +1,19 @@
-# User Authentation
+# User Authentication
 
-
-## Descrpiton
+## Description
 
 User authentication has two part
-1. Indetify the user
-2. Define user prevliges.
+1. Identify the user
+2. Define user privileges.
 
 
 ## Background
 
-There are two ways to perfrom user authentiation
+There are two ways to perform user authentication
 1. Sessions
-    Cookiee base server sessions.
+    Cookie base server sessions.
     Steps
-    - Frist the user logins
+    - First the user logins
     - Store Session is created on the server and sent to the client
     - client saves the session in the cookie
     - request with the session id is make and is checked on the server side
@@ -31,8 +30,8 @@ There are two ways to perfrom user authentiation
     - Server generates a JWT adn JWT is created with a private key on the server
     - Clients puts JWT in local storage
     - In the future request the JWT is sent in the head to validate
-    - Then the server only needs to validate the signiture
+    - Then the server only needs to validate the signature
     
     Drawbacks
-    - Token can be high jaked by attackers
+    - Token can be high jacked by attackers
     - They are difficult to validate
