@@ -13,6 +13,12 @@ Status
 
 
 ### Phone Call for guidance
+4 rounds
+- 2 coding
+- 1 Behavioral
+- 1 System Design
+- 1 Random
+
 
 #### Leetcode interview
     - 2 mid - 40 mins 
@@ -44,3 +50,28 @@ Status
     - Short list
     - Selection
     - 2 month deadline to select
+
+## Behavioral Interview
+- Virag 
+- Did not feel great, but they wanted more leadership and multiple team collaborations
+
+
+## Leetcode with Fang W
+- I just have to do my best
+- One of many
+
+
+## Leetcode with Hesam
+- did well on one questions
+- did not do so hot on another questions
+
+## System Design with Julian C.
+- 
+
+## Leetcode with Swetha
+- Completed on question
+- did not do so hot on another question
+
+
+# Result
+- Rejection
