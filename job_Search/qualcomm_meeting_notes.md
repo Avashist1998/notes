@@ -171,3 +171,30 @@ A lot of atanomy
 manage your own budget
 
 
+
+
+
+Onsite interview (4 interviews) after 15 days from Technical phone screen: Interview-1: 1. Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n). Example: Input: S = "ADOBECODEBANC", T = "ABC" Output: "BANC" (Leetcode: 76)
+
+Interview-2:
+1.	Count number of set bits in given number.
+2.	What is real time operating system?
+3.	When do you get segmentation fault?
+
+Interview-3:
+1.	Multiply a number with 7 without using * or + operators
+2.	Finding a loop at the end of single linked list.
+Interview-4:
+1.	How to swap big endian and little endian?  
+2.	Group Anagrams
+	Given an array of strings, group anagrams together.
+	Example:
+	Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+	Output:
+	[
+	  ["ate","eat","tea"],
+	  ["nat","tan"],
+	  ["bat"]
+	]
+
+Qualcomm office is really nice in San Diego and they have shuttle services from hotel to all buildings. They booked my flight tickets from NY to CA and they booked nice hotel in San Diego and food reimbursement is also generous. Offices have gym, swimming pool in it. Personally, I don’t think they ask tough interview questions as they are not proper CS company. Overall my experience is very good with Qualcomm. Waiting for result now.
