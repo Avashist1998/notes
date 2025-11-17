@@ -27,7 +27,7 @@ Pyspark run the python code in one process but hands off the heavy work to the J
 
 
 #### Diagram
-
+```mermaid
 +-------------------+          Py4J           +-----------------------+
 | Python Process    | <---------------------> | JVM Spark Driver      |
 | - PySpark API     |                        | - SparkSession         |
@@ -41,6 +41,7 @@ Pyspark run the python code in one process but hands off the heavy work to the J
                                     |   - Execute tasks                      |
                                     |   - Perform shuffles, joins, etc      |
                                     +----------------------------------------+
+```
 
 ### Spark RDD
 
