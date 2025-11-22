@@ -55,3 +55,37 @@ Spark RDD: Resilient distributed dataset is fundamental data structure in spark
 - Immutable: Once a n RDD is create it can not be changed any transformation results in a new RDD
 - Lazy Evaluation
 - Distributed
+
+
+
+### Spark Optimization
+The optimization revolves around its Catalyst Optimizer and its distributed architecture.
+
+
+#### Catalyst Optimizer
+- This is the Spark optimization engine which convert the user code (SQL, Python, DataFrame operations) into a execution plan
+- Logical Plan Generation: User code is convert into a absract, unresolved logic plan.
+- Logic Plan Opitimization: The logic plan is optimized using role based and cost based techniqueues. For example:
+    - Predicate Pushdown: Push down the filters to the data source to reduce the data to be processed.
+    - Column Pruning: Remove the columns that are not needed to be processed.
+    - Join Reordering: Reorder the joins to reduce the number of shuffles.
+- Physical Plan Generation: The logical plan is converted into a physical plan which is a set of tasks to be executed on the data. The plan consider factors like data partitions, data types, and data distribution.
+- Physical Plan Selection: The engine selects the most efficent physical plan based on cost estimated and statistics.
+
+#### Adaptive Query Execution
+At runtime, the optimiation framework adapt the execution plan based on the runtime data and statistics.
+- Dynamic coalescing: Combine small tasks into larger ones to reduce the number of tasks and improve the efficiency.
+- Dynamic Switch join strategy: Switch between hash join and sort merge join based on the data distribution and size.
+- Handle Skewed data: Mitigated performance issue caused by uneven data distribution (Hot key problem).
+
+#### Data Partitioning and Parallelism
+Spark will divide the data into smaller chunks and process them in parallel since data is distributed across the cluster. The optimizer will also consider number of partitions and custom partitioner to balance the load and improve the efficiency.
+
+#### Resource Management
+- Dynamically allocate resources to the tasks based on the workload and resource availability.
+- Memory and CPU setting Tuning: Adjust the memory and CPU settings based on the workload and resource availability.
+
+#### Data Formats and Storage
+- Choose data fromats like Parquet, ORC, Avro, etc. based on the data size, type, and access patterns.
+- Splitting file formats: Ensure data is split into optimal size for efficient reading and processing.
+
