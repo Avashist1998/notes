@@ -256,10 +256,20 @@ As soon as I saw the gaps, I took ownership of the mistake.
 Within a week, we shipped a significantly stronger version with much higher retrieval accuracy. The new evaluation pipeline became part of our standard process, and in later projects — including a more complex LLM-driven search system — those improvements prevented similar failures. The experience materially improved my ability to plan, validate, and derisk complex features.
 
 ## Describe a time when you had to give constructive feedback.
-- My Time at argo, I only had on year of experience and I was working on the project with a senior engineer.
+
+**Situation**
+- At Draup, I was collaborating with a UI developer on new product features. The organization didn’t have clearly defined coding standards, especially around branch naming. Coming from environments like Viridien and Argo AI, where naming conventions were strongly enforced, I found it difficult to track changes or understand the context behind his branches — especially since we were working across time zones.
+
+**Task**
+- I needed to give constructive feedback on creating a consistent branching strategy and naming convention, in a way that was helpful, respectful, and easy for him to adopt.
+
+**Action**
+- I reached out privately to make sure the conversation stayed positive. I first asked whether he was following an existing standard I might have missed — which helped avoid coming across as accusatory. When he confirmed there wasn’t one, I shared examples of lightweight conventions I had used successfully, such as feature/<area>-<summary>.
+- I explained the practical benefits: easier async collaboration, faster code reviews, and clearer context when debugging. I also highlighted how the lack of structure made it harder for me to understand his changes due to our time-zone difference.
+- He was initially hesitant, so I gave concrete before/after examples and offered to adopt the same pattern myself to show commitment. Over the next few weeks, he started applying the conventions consistently.
+
+**Result**
+- The new naming approach became our default, and collaboration improved noticeably — PR reviews were faster, and we spent less time clarifying context. The UI developer mentioned that the structure actually made his workflow feel cleaner. For me, it reinforced the importance of giving feedback in a way that’s empathetic, collaborative, and rooted in shared benefits rather than criticism.
+
 
 ## Tell me about a time you exceeded expectations on a project.
--
-
-
-
