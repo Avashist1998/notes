@@ -22,6 +22,7 @@
 **Result**:
 - We were able to bring the application back online and iminimize the impact on the users
 - The team appricated my efforts and I was able to learn more about another part of our application
+- Diagnosed root cause in <15 minutes and restored service within 40 minutes.
 
 ### What could you have done better in that situation? (follow up)
 One area I identified for improvement was our detection and monitoring strategy. The issue was ultimately discovered through human observation, which delayed our response. I could have proactively set up automated alerts tied to LLM latency spikes, IAM role expiration, or STS assume-role failures. That would allow us to react within minutes instead of relying on someone noticing symptoms in the logs.
@@ -48,6 +49,7 @@ Overall, we solved the issue quickly, but improving observability and preventive
 - When December did finaly arrive, DevOps team was highly fimilar with the project and expections.
 - They are aready setup the infrastrcution script for provisioning the appropriate resources. 
 - The realise was on time, both teams felt supported rather than pressured.
+- Avoiding a 2-4 week slip that would have affected the launch timeline.
 
 ## Tell me about a time when you were given a vague or ambiguous project. How did you figure out what to do, and what was the outcome?
 
@@ -92,6 +94,13 @@ Overall, we solved the issue quickly, but improving observability and preventive
 
 **Result**
 - The alpha was delivered on time, validated the approach, and was later expanded into a full-feature product that was released to users. It became the foundation for how we modeled automation impact going forward.
+- Established a benchmark showing current system handled multi-hop queries with ~25% accuracy
+- Reduced requirement ambiguity by defining 5 core user needs and 3 measurable success metrics.
+    - User Usage
+        - The user usage when up by 20%
+    - Results sharing with the team
+    - User satisfaction
+        - It went up by 22%
 
 ## Tell me about a time you had to solve a difficult problem
 
@@ -124,6 +133,13 @@ pure semantic search,
 - The new Text-to-Cypher system outperformed the previous search stack across accuracy, relevance, and depth of answers. 
 - After rollout, the sales team reported that CAT Chat could now answer complex, multi-hop queries with far higher reliability. 
 - The upgrade became the backbone of the next iteration of the product and enabled new workflows that weren’t previously possible.
+- We say a improvement in mRR from 0.56 to 0.84
+    - User Usage
+        - The user usage when up by 20%
+    - Results sharing with the team
+    - User satisfaction
+        - It went up by 22%
+
 
 ## Describe a situation where you had to work with a difficult team member
 
@@ -141,7 +157,7 @@ We clarified expectations, divided responsibilities more clearly, and scheduled 
 
 **Result**
 The tone of our collaboration improved immediately. We ended up delivering the feature on time, and the teammate later thanked me for handling the situation professionally rather than reactively. The experience strengthened our working relationship, and I continued collaborating with them on future projects without issues.
-
+Delivered the feature on time (2-week sprint) with no rework
 
 ## Give an example of a goal you reached and how you achieved it.
 
@@ -170,6 +186,10 @@ Iterated with sales and product to validate real-world queries.
 **Result**
 We exceeded the original goal. Multi-hop query accuracy improved by 40%+, the system avoided hallucinations, and sales adoption increased significantly.
 The final system became the foundation for the next generation of CAT Chat and is still in production. The project also became a reference model internally for how to pair LLMs with graph-based retrieval.
+- Create a datset of 5000+ documents 
+- A traninng set of 5000+ queries using distaliation 
+- A accuracy of cypher generation from 50% to 95%
+
 
 ## Describe a time you had to manage multiple priorities.
 **Situation**
@@ -196,28 +216,47 @@ I updated my manager and product partner weekly, flagging any risks early so exp
 
 **Result**
 Both priorities were delivered successfully. The simulation engine hit its milestone on time, and the intern completed their project with strong outcomes and a positive mentorship experience. My manager highlighted the balanced execution as an example of strong ownership and team leadership.
-
+- Delivered the simulation engine milestone 100% on schedule.
+- Split time: ~70% simulation / 30% mentorship — tracked and kept stable week to week.
 
 ## Tell me about a time you had to adapt to a significant change at work.
-S – Situation:
+**Situation**
+
 At Viridien, I was co-leading a major initiative to upgrade the CAT Chat application for the sales team. The core of the improvement involved designing a new Text-to-Cypher agentic flow, which required both LLM expertise and graph-query design. I was collaborating closely with our ML Lead, Mike, and we shared architectural, modeling, and evaluation responsibilities.
-T – Task:
+**Task**
+
 Midway through the project, Mike unexpectedly had to leave the company for family reasons. This created a sudden gap in technical ownership at a critical stage of the project. I needed to quickly adapt, assume full responsibility, and keep the project on track without deprioritizing quality or delivery timelines.
-A – Action:
+
+**Action**
 To keep the project moving smoothly, I pivoted my approach:
 Took end-to-end ownership of the LLM and graph-search pipeline — including Cypher generation, evaluation datasets, and retrieval architecture.
 Reassessed the remaining scope and re-prioritized tasks to ensure the most impactful components were delivered first.
 Increased communication cadence with product, sales, and engineering leadership so everyone had clarity on risks and timelines.
 Filled ML gaps independently by studying Mike’s prior design notes, reviewing his prototypes, and extending them with my own iterations.
 Built additional safety checks and evaluation harnesses to maintain quality without a second ML reviewer.
-R – Result:
+
+**Result**
 The project stayed on schedule, and the upgraded Text-to-Cypher flow launched successfully. The system delivered significantly better retrieval accuracy and became the foundation for the next version of CAT Chat. My ability to adapt and step into full ownership was highlighted by leadership as an example of strong execution and resilience during unexpected change.
+- Took over 100% of ML responsibilities previously shared
+- Delivered 80% of high-impact features first, keeping stakeholder confidence high.
 
 ## Tell me about a time you failed and how you handled it.
-- Not sure about this one either
+**Situation**
+Earlier in my career, I was leading a feature that involved integrating a new search mechanism into our product. I underestimated the complexity of edge cases and didn’t allocate enough time for robust evaluation. As a result, when we deployed to staging, the system performed well on common queries but failed badly on long-tail, multi-hop questions.
+**Task**
+My responsibility was to deliver a reliable search upgrade. The expectation was that I would validate correctness and ensure a smooth rollout — which I failed to do because my evaluation coverage was insufficient.
+**Action**
+As soon as I saw the gaps, I took ownership of the mistake.
+- I communicated the issue to my manager and stakeholders immediately and proposed a recovery plan.
+- I halted the rollout and prioritized building a comprehensive evaluation dataset, including adversarial and multi-hop test cases.
+- I partnered with domain experts and support teams to gather real-world queries we had overlooked.
+- I implemented automated evaluation checks so this kind of gap wouldn’t happen again.
+- I also reflected on why the failure occurred and updated my planning approach to always include user-behavior-based evaluation, not just synthetic tests.
+**Result**
+Within a week, we shipped a significantly stronger version with much higher retrieval accuracy. The new evaluation pipeline became part of our standard process, and in later projects — including a more complex LLM-driven search system — those improvements prevented similar failures. The experience materially improved my ability to plan, validate, and derisk complex features.
 
 ## Describe a time when you had to give constructive feedback.
-- 
+- My Time at argo, I only had on year of experience and I was working on the project with a senior engineer.
 
 ## Tell me about a time you exceeded expectations on a project.
 -
